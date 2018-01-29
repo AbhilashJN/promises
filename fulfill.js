@@ -7,3 +7,6 @@ let promise = new Promise(function (fulfill, reject) {
 });
 
 promise.then(console.log);
+
+
+module.exports = promise;
