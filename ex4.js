@@ -8,3 +8,6 @@ let promise = new Promise((fulfill,reject)=>{
 });
 
 promise.then((msg)=>{console.log(msg);} , (err)=>{console.log(err.message);});
+
+
+module.exports = promise;
