@@ -9,3 +9,5 @@ let promise = new Promise((fulfill,reject)=>{
 });
 
 promise.then(()=>{} , (value)=>{console.log(value.message);});
+
+module.exports = promise;
