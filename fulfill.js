@@ -6,7 +6,7 @@ let promise = new Promise(function (fulfill, reject) {
 	},300);
 });
 
-promise.then(console.log);
+//promise.then(console.log);
 
 
 module.exports = promise;
